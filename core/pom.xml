@@ -431,20 +431,6 @@ limitations under the License.
           </execution>
         </executions>
       </plugin>
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-gpg-plugin</artifactId>
-        <version>1.6</version>
-        <executions>
-          <execution>
-            <id>27B59EF7777A67354829E6F423296DF5C906EAEC</id>
-            <phase>verify</phase>
-            <goals>
-              <goal>sign</goal>
-            </goals>
-          </execution>
-        </executions>
-      </plugin>
     </plugins>
 
     <resources>
